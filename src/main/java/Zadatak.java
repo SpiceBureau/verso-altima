@@ -1,5 +1,3 @@
-import org.w3c.dom.Node;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -14,7 +12,7 @@ public class Zadatak {
 
     public static void main(String[] args) {
         writeToFile("", false);
-        openFile(""); //TODO add path to input file
+        openFile("C:\\Users\\Dominik\\Desktop\\FER\\inputFile.txt"); //TODO add path to input file
 
         countTreeLevels(peopleNodes, 1);
 
