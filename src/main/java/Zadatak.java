@@ -12,7 +12,7 @@ public class Zadatak {
 
     public static void main(String[] args) {
         writeToFile("", false);
-        openFile("C:\\Users\\Dominik\\Desktop\\FER\\inputFile.txt"); //TODO add path to input file
+        openFile(""); //TODO add path to input file
 
         countTreeLevels(peopleNodes, 1);
 
